@@ -194,5 +194,12 @@ ccrdel: mov     a,e
         ora     e
         ret
 
+; DE <= HL [signed]
+ccle:   call    cccmp
+        rz
+        rc
+        dcx     h
+        ret
+
 cstartend:
        .end
