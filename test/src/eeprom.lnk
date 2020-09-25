@@ -1,0 +1,9 @@
+-ioux
+eeprom-img
+cstart
+main
+crun8085lib
+-b CRET=0
+-b LIB8080=crtsoend+0
+-b SMALLC_GENERATED=crun8080_end+crtsoend+0
+-e

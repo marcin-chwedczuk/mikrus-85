@@ -1,0 +1,7 @@
+-ioux
+eeprom-img
+cstart
+main
+-b CSTART=0
+-b SMALLC_GENERATED=0+cstartend
+-e

@@ -5,12 +5,10 @@
 #       You'll probably want to change these.  These are used by the compilers
 #       to figure out where the include files should go.
 #	INCDIR will be the look up location for #include <stdio.h> ..
-TARGDIR = /home/notebook/Public/work/smallCextended/lib
-#INCDIR = "/usr/shared/smallC/src/scc/include/"
 INCDIR = "./include/"
 
 INSTFLAGS = -DINCDIR=$(INCDIR)
-   CFLAGS = '$(INSTFLAGS)' -ggdb -g
+   CFLAGS = '$(INSTFLAGS)' -std=c89 -Wno-parentheses -Wno-return-type -ggdb -g
 
 ifdef SystemRoot
    # windows

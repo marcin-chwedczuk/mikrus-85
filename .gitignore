@@ -1,0 +1,19 @@
+# SmallC and assembly artifacts
+*.hlr
+*.ihx
+*.lst
+*.rel
+*.rst
+*.sym
+*.s
+*.bin
+
+# C compilation artifacts
+*.o
+
+# Vim Swap files
+*.swp
+*.swo
+
+# SmallC compiler itself
+smallC/scc8080
