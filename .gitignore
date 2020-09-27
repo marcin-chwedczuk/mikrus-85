@@ -17,3 +17,6 @@
 
 # SmallC compiler itself
 smallC/scc8080
+
+# macOS crap
+.DS_Store
