@@ -1,8 +1,0 @@
-
-SmallC compiler is taken from: https://github.com/ncb85/SmallC-85
-
-I made a copy because I did some adhoc modifications while trying to make it work on my breadboard 8085 computer.
-
-The code is mess. It was just a very time constrained hacking project. Don't blame me...
-
-
